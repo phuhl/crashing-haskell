@@ -1,0 +1,13 @@
+* crashing-haskell
+
+** Install
+
+#+BEGIN_SRC shell-script
+stack setup
+stack build
+stack exec crash-exe
+#+END_SRC
+
+** Problem
+
+When repeatatly scrolling up and down (fast) in the scroll-able area the program hangs.
